@@ -18,7 +18,7 @@ nav {
 }
 
 h1 {
-    margin: 0 0.5% 0 0;
+    margin: 0 1% 0 0;
 }
 
 
@@ -45,7 +45,7 @@ nav a {
     color: white;
 }
 
-nav>a:hover, nav div span:hover {
+nav>a:hover, nav div span:hover, .hover_effect {
     background-color: rgb(54,127,169);
 }
 
@@ -93,6 +93,24 @@ nav .dropdown ul li a:hover {
 
 nav .dropdown:hover > ul {
     display: flex;
+}
+
+nav .search {
+    padding: 1%;
+    font-size: 0.9rem;
+    background-color: rgb(99,164,201);
+    border: none;
+    border-radius: 2px;
+}
+
+nav .search::placeholder {
+    color: rgb(214, 214, 214);
+
+}
+
+nav .search:focus {
+    outline: none;
+    background-color: white;
 }
 
 
